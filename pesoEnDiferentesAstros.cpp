@@ -25,7 +25,7 @@ void calculate_weight(double weight)
 
     while (i < N_ASTROS)
     {
-        std::cout << "Peso en " << astrosName[i] << " ["<< (astrosMS[i] * weight) / 9.81 << "]\n"; // 9.8 es Peso Vs Masa de la tierra
+        std::cout << "Peso " << astrosName[i] << " ["<< (astrosMS[i] * weight) / 9.81 << "]\n"; // 9.8 es Peso Vs Masa de la tierra
         i++;
     }
 }
